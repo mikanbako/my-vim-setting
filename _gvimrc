@@ -31,6 +31,7 @@ set columns=100 " 幅
 set guioptions+=a " ビジュアル選択(D&D他)を自動的にクリップボードへ (:help guioptions_a)
 set backupdir=$HOME/temp/vim/backup "バックアップディレクトリ
 set directory=$HOME/temp/vim/swap " スワップファイルディレクトリ
+set undodir=$HOME/temp/vim/undo " UNDOファイルディレクトリ
 set list "改行やタブを可視化
 set listchars=tab:>\ 
 set ruler
