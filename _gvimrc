@@ -12,10 +12,6 @@ if has('win32')
   "set guifont=MS_Mincho:h12:cSHIFTJIS
   " 行間隔の設定
   set linespace=1
-  " 一部のUCS文字の幅を自動計測して決める
-  if has('kaoriya')
-    set ambiwidth=auto
-  endif
 elseif has('mac')
   " set guifont=Osaka－等幅:h14
   set guifont=Menlo\ Regular:h14
@@ -28,6 +24,7 @@ set number            " 行番号表示
 set clipboard=unnamed " Windows クリップボード対応
 set linespace=10 " 行間
 set columns=100 " 幅
+set ambiwidth=double "一部のUCS文字の幅を全角にする
 set guioptions+=a " ビジュアル選択(D&D他)を自動的にクリップボードへ (:help guioptions_a)
 set backupdir=$HOME/temp/vim/backup "バックアップディレクトリ
 set directory=$HOME/temp/vim/swap " スワップファイルディレクトリ
