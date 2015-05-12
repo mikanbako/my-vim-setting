@@ -24,7 +24,8 @@ set number            " 行番号表示
 set clipboard=unnamed " Windows クリップボード対応
 set linespace=10 " 行間
 set columns=100 " 幅
-set ambiwidth=double "一部のUCS文字の幅を全角にする
+set colorcolumn=80 " 特定の列に色を付ける
+set ambiwidth=double " 一部のUCS文字の幅を全角にする
 set guioptions+=a " ビジュアル選択(D&D他)を自動的にクリップボードへ (:help guioptions_a)
 set backupdir=$HOME/temp/vim/backup "バックアップディレクトリ
 set directory=$HOME/temp/vim/swap " スワップファイルディレクトリ
