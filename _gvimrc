@@ -34,6 +34,7 @@ set list "改行やタブを可視化
 set listchars=tab:>\ 
 set ruler
 set visualbell t_vb=  " ビープ音を消す
+set backupcopy=yes " 更新を元のファイルに上書きする
 
 " タブ幅の設定
 set expandtab " タブをスペースに展開
